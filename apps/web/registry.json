@@ -1,0 +1,23 @@
+{
+  "name": "creightit/ui",
+  "homepage": "https://ui.creightit.xyz",
+  "items": [
+    {
+      "name": "index",
+      "type": "registry:style",
+      "dependencies": [
+        "tailwind-variants",
+        "@phosphor-icons/react"
+      ],
+      "devDependencies": [
+        "tw-animate-css",
+        "@radix-ui/colors"
+      ],
+      "registryDependencies": [
+        "cx"
+      ],
+      "files": [],
+      "cssVars": {}
+    }
+  ]
+}
