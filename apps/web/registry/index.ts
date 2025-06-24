@@ -1,4 +1,4 @@
-import { registryItemSchema, type Registry } from "shadcn/registry"
+import { registryItemSchema, type Registry } from "creight/registry"
 import { z } from "zod"
 
 import { blocks } from "@/registry/registry-blocks"

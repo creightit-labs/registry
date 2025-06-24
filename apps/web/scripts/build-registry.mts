@@ -98,7 +98,7 @@ async function buildRegistryJsonFile() {
 async function buildRegistry() {
   return new Promise((resolve, reject) => {
     const process = exec(
-      `pnpm dlx shadcn build registry.json --output ../www/public/r/styles/new-york-v4`
+      `pnpm creight build registry.json --output ../www/public/r/styles/product-ui`
     )
 
     process.on("exit", (code) => {
@@ -124,12 +124,12 @@ async function syncRegistry() {
   }
 
   // 1. Call pnpm registry:build for www.
-  await exec("pnpm --filter=www registry:build")
+  await exec("pnpm --filter=web registry:build")
 
   // 2. Copy the www/public/r directory to v4/public/r.
   rimraf.sync(path.join(process.cwd(), "public/r"))
   await fs.cp(
-    path.resolve(process.cwd(), "../www/public/r"),
+    path.resolve(process.cwd(), "../web/public/r"),
     path.resolve(process.cwd(), "public/r"),
     { recursive: true }
   )
