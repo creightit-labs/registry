@@ -15,16 +15,17 @@ async function buildRegistryIndex() {
 import * as React from "react"
 
 export const Index: Record<string, any> = {`
+  // Find the reference implementation from our "default" style
   for (const item of registry.items) {
     const resolveFiles = item.files?.map(
-      (file) => `registry/new-york-v4/${file.path}`
+      (file) => `registry/product-ui/${file.path}`
     )
     if (!resolveFiles) {
       continue
     }
 
     const componentPath = item.files?.[0]?.path
-      ? `@/registry/new-york-v4/${item.files[0].path}`
+      ? `@/registry/product-ui/${item.files[0].path}`
       : ""
 
     index += `
@@ -34,7 +35,7 @@ export const Index: Record<string, any> = {`
     type: "${item.type}",
     registryDependencies: ${JSON.stringify(item.registryDependencies)},
     files: [${item.files?.map((file) => {
-      const filePath = `registry/new-york-v4/${typeof file === "string" ? file : file.path}`
+      const filePath = `registry/product-ui/${typeof file === "string" ? file : file.path}`
       const resolvedFilePath = path.resolve(filePath)
       return typeof file === "string"
         ? `"${resolvedFilePath}"`
@@ -76,7 +77,7 @@ async function buildRegistryJsonFile() {
       const files = item.files?.map((file) => {
         return {
           ...file,
-          path: `registry/new-york-v4/${file.path}`,
+          path: `registry/product-ui/${file.path}`,
         }
       })
 
@@ -98,7 +99,7 @@ async function buildRegistryJsonFile() {
 async function buildRegistry() {
   return new Promise((resolve, reject) => {
     const process = exec(
-      `pnpm creight build registry.json --output ../www/public/r/styles/product-ui`
+      `pnpm creight build registry.json --output ../web/public/r/styles/product-ui`
     )
 
     process.on("exit", (code) => {

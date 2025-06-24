@@ -22,12 +22,12 @@ export const Index: Record<string, any> = {
     type: "registry:lib",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/lib/cx.ts",
+      path: "registry/product-ui/lib/cx.ts",
       type: "registry:lib",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/lib/cx.ts")
+      const mod = await import("@/registry/product-ui/lib/cx.ts")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -40,12 +40,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-demo.tsx",
+      path: "registry/product-ui/internal/sidebar-demo.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-demo.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-demo.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -58,12 +58,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-header.tsx",
+      path: "registry/product-ui/internal/sidebar-header.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-header.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-header.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -76,12 +76,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-footer.tsx",
+      path: "registry/product-ui/internal/sidebar-footer.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-footer.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-footer.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -94,12 +94,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-group.tsx",
+      path: "registry/product-ui/internal/sidebar-group.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-group.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-group.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -112,12 +112,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-group-collapsible.tsx",
+      path: "registry/product-ui/internal/sidebar-group-collapsible.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-group-collapsible.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-group-collapsible.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -130,12 +130,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-group-action.tsx",
+      path: "registry/product-ui/internal/sidebar-group-action.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-group-action.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-group-action.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -148,12 +148,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-menu.tsx",
+      path: "registry/product-ui/internal/sidebar-menu.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-menu.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-menu.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -166,12 +166,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-menu-action.tsx",
+      path: "registry/product-ui/internal/sidebar-menu-action.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-menu-action.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-menu-action.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -184,12 +184,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-menu-sub.tsx",
+      path: "registry/product-ui/internal/sidebar-menu-sub.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-menu-sub.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-menu-sub.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -202,12 +202,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-menu-collapsible.tsx",
+      path: "registry/product-ui/internal/sidebar-menu-collapsible.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-menu-collapsible.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-menu-collapsible.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -220,12 +220,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-menu-badge.tsx",
+      path: "registry/product-ui/internal/sidebar-menu-badge.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-menu-badge.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-menu-badge.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -238,12 +238,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-rsc.tsx",
+      path: "registry/product-ui/internal/sidebar-rsc.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-rsc.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-rsc.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -256,12 +256,12 @@ export const Index: Record<string, any> = {
     type: "registry:internal",
     registryDependencies: undefined,
     files: [{
-      path: "registry/new-york-v4/internal/sidebar-controlled.tsx",
+      path: "registry/product-ui/internal/sidebar-controlled.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/new-york-v4/internal/sidebar-controlled.tsx")
+      const mod = await import("@/registry/product-ui/internal/sidebar-controlled.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
