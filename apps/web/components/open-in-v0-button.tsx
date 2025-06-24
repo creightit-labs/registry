@@ -1,16 +1,16 @@
-import { Button } from "@/registry/demo-ui/ui/button"
 import { cn } from "@/lib/utils"
+import { Button } from "@/registry/demo-ui/ui/button"
 
 export function OpenInV0Button({
-                                 name,
-                                 className,
-                               }: { name: string } & React.ComponentProps<typeof Button>) {
+  name,
+  className,
+}: { name: string } & React.ComponentProps<typeof Button>) {
   return (
     <Button
       aria-label="Open in v0"
       size="sm"
       className={cn(
-        "shadow-none bg-black text-white hover:bg-black hover:text-white dark:bg-white dark:text-black",
+        "bg-black text-white shadow-none hover:bg-black hover:text-white dark:bg-white dark:text-black",
         className
       )}
       asChild

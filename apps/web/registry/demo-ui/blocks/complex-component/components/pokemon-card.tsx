@@ -1,7 +1,8 @@
 import { cache } from "react"
+
+import { PokemonImage } from "@/registry/demo-ui/blocks/complex-component/components/pokemon-image"
 import { getPokemon } from "@/registry/demo-ui/blocks/complex-component/lib/pokemon"
 import { Card, CardContent } from "@/registry/demo-ui/ui/card"
-import { PokemonImage } from "@/registry/demo-ui/blocks/complex-component/components/pokemon-image"
 
 const cachedGetPokemon = cache(getPokemon)
 

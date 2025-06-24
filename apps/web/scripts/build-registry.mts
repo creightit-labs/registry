@@ -127,13 +127,13 @@ async function syncRegistry() {
   // 1. Call pnpm registry:build for www.
   await exec("pnpm --filter=web registry:build")
 
-  // 2. Copy the www/public/r directory to v4/public/r.
-  rimraf.sync(path.join(process.cwd(), "public/r"))
-  await fs.cp(
-    path.resolve(process.cwd(), "../web/public/r"),
-    path.resolve(process.cwd(), "public/r"),
-    { recursive: true }
-  )
+  // // 2. Copy the www/public/r directory to v4/public/r.
+  // rimraf.sync(path.join(process.cwd(), "public/r"))
+  // await fs.cp(
+  //   path.resolve(process.cwd(), "../web/public/r"),
+  //   path.resolve(process.cwd(), "public/r"),
+  //   { recursive: true }
+  // )
 
   // 3. Restore the registry content if we had it
   if (registryContent) {

@@ -28,7 +28,7 @@
       ],
       "files": [
         {
-          "path": "registry/new-york-v4/lib/cx.ts",
+          "path": "registry/product-ui/lib/cx.ts",
           "type": "registry:lib"
         }
       ]
@@ -212,7 +212,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-demo.tsx",
+          "path": "registry/product-ui/internal/sidebar-demo.tsx",
           "type": "registry:component"
         }
       ]
@@ -222,7 +222,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-header.tsx",
+          "path": "registry/product-ui/internal/sidebar-header.tsx",
           "type": "registry:component"
         }
       ]
@@ -232,7 +232,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-footer.tsx",
+          "path": "registry/product-ui/internal/sidebar-footer.tsx",
           "type": "registry:component"
         }
       ]
@@ -242,7 +242,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-group.tsx",
+          "path": "registry/product-ui/internal/sidebar-group.tsx",
           "type": "registry:component"
         }
       ]
@@ -252,7 +252,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-group-collapsible.tsx",
+          "path": "registry/product-ui/internal/sidebar-group-collapsible.tsx",
           "type": "registry:component"
         }
       ]
@@ -262,7 +262,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-group-action.tsx",
+          "path": "registry/product-ui/internal/sidebar-group-action.tsx",
           "type": "registry:component"
         }
       ]
@@ -272,7 +272,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-menu.tsx",
+          "path": "registry/product-ui/internal/sidebar-menu.tsx",
           "type": "registry:component"
         }
       ]
@@ -282,7 +282,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-menu-action.tsx",
+          "path": "registry/product-ui/internal/sidebar-menu-action.tsx",
           "type": "registry:component"
         }
       ]
@@ -292,7 +292,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-menu-sub.tsx",
+          "path": "registry/product-ui/internal/sidebar-menu-sub.tsx",
           "type": "registry:component"
         }
       ]
@@ -302,7 +302,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-menu-collapsible.tsx",
+          "path": "registry/product-ui/internal/sidebar-menu-collapsible.tsx",
           "type": "registry:component"
         }
       ]
@@ -312,7 +312,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-menu-badge.tsx",
+          "path": "registry/product-ui/internal/sidebar-menu-badge.tsx",
           "type": "registry:component"
         }
       ]
@@ -322,7 +322,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-rsc.tsx",
+          "path": "registry/product-ui/internal/sidebar-rsc.tsx",
           "type": "registry:component"
         }
       ]
@@ -332,7 +332,7 @@
       "type": "registry:internal",
       "files": [
         {
-          "path": "registry/new-york-v4/internal/sidebar-controlled.tsx",
+          "path": "registry/product-ui/internal/sidebar-controlled.tsx",
           "type": "registry:component"
         }
       ]

@@ -28,7 +28,7 @@ export const registry = {
         name: "index",
         type: "registry:style",
         dependencies: ["tailwind-variants", "@phosphor-icons/react"],
-        devDependencies: ["tw-animate-css","@radix-ui/colors"],
+        devDependencies: ["tw-animate-css", "@radix-ui/colors"],
         registryDependencies: ["cx"],
         cssVars: {},
         files: [],

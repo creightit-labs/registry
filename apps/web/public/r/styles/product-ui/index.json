@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "index",
+  "type": "registry:style",
+  "dependencies": [
+    "tailwind-variants",
+    "@phosphor-icons/react"
+  ],
+  "devDependencies": [
+    "tw-animate-css",
+    "@radix-ui/colors"
+  ],
+  "registryDependencies": [
+    "cx"
+  ],
+  "files": [],
+  "cssVars": {}
+}

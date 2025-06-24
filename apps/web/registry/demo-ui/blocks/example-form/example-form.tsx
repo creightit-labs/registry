@@ -1,19 +1,20 @@
 "use client"
 
 import * as React from "react"
+import { z } from "zod"
+
+import { Button } from "@/registry/demo-ui/ui/button"
 import {
   Card,
-  CardTitle,
-  CardHeader,
-  CardDescription,
   CardContent,
+  CardDescription,
   CardFooter,
+  CardHeader,
+  CardTitle,
 } from "@/registry/demo-ui/ui/card"
 import { Input } from "@/registry/demo-ui/ui/input"
 import { Label } from "@/registry/demo-ui/ui/label"
-import { Button } from "@/registry/demo-ui/ui/button"
 import { Textarea } from "@/registry/demo-ui/ui/textarea"
-import { z } from "zod"
 
 const exampleFormSchema = z.object({
   name: z.string().min(1),

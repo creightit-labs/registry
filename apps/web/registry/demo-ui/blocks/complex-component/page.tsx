@@ -1,6 +1,8 @@
 import { cache } from "react"
+
 import { PokemonCard } from "@/registry/demo-ui/blocks/complex-component/components/pokemon-card"
 import { getPokemonList } from "@/registry/demo-ui/blocks/complex-component/lib/pokemon"
+
 const getCachedPokemonList = cache(getPokemonList)
 
 export default async function Page() {
