@@ -1,4 +1,4 @@
-import { type Registry } from "shadcn/registry"
+import { type Registry } from "creight/registry"
 
 export const internal: Registry["items"] = [
   // Do not move this. They are intentionally here for registry capture.
